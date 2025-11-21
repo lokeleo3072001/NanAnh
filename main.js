@@ -165,8 +165,8 @@ function createUI() {
   separator1.className = 'separator';
   controlsDiv.appendChild(separator1);
 
-  const actionSelector = document.createElement('div');
-  actionSelector.id = 'action-selector';
+  // const actionSelector = document.createElement('div');
+  // actionSelector.id = 'action-selector';
 
   const morphBtn = document.createElement('button');
   morphBtn.className = 'action-btn';
@@ -175,8 +175,8 @@ function createUI() {
     morphBtn.classList.toggle('active');
     // morphTarget = morphTarget === 0 ? 1 : 0;
   });
-  actionSelector.appendChild(morphBtn);
-  controlsDiv.appendChild(actionSelector);
+  // actionSelector.appendChild(morphBtn);
+  // controlsDiv.appendChild(actionSelector);
 
   const separator2 = document.createElement('div');
   separator2.className = 'separator';
